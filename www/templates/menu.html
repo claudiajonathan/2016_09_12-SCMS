@@ -1,0 +1,64 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar app-top-bar bar-balanced">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu class="main-menu" side="left">
+    <ion-content scroll="false">
+      <ion-list>
+        <ion-item menu-close class="ijo">
+          <!-- <div class="list card"> -->
+            <!-- <div class="item"> -->
+            <img src="templates/a.png">
+            <div class="logoscms"></div>
+            <!-- <img src="logoscms" bg> -->
+              <!-- <h2>Agenda</h2> -->
+            <!-- </div> -->
+          <!-- </div> -->
+        </ion-item>
+        <!-- <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.agenda">
+          <i class="icon ion-calendar"></i>
+          <h2 class="menu-text">Agenda</h2>
+        </ion-item> -->
+        <!-- <ion-item menu-close ui-sref="app.speakers"> -->
+          <div class="list card">
+            <div class="item">
+              <h2>PLAT&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: BE 1234 ZZ</h2>
+              <h2>JENIS MOBIL&nbsp: JAZZ</h2>
+            </div>
+          </div>
+        <!-- </ion-item> -->
+        <!-- <ion-item menu-close ui-sref="app.venue"> -->
+          <div class="list card" class="ijomuda">
+            <div class="item" class="ijomuda">
+              <h2>PLAT&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: BE 7532 EH</h2>
+              <h2>JENIS MOBIL&nbsp: AVANZA</h2>
+            </div>
+          </div>
+        <!-- </ion-item> -->
+        <ion-floating-button click="myEvent()" has-footer="false" button-color="#2AC9AA" icon="ion-plus" iconColor="#fff">
+        </ion-floating-button>
+        <!-- <button fab primary fab-bottom fab-right>
+          <ion-icon name="add"></ion-icon>
+        </button> -->
+        <!-- <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.speakers">
+          <i class="icon ion-speakerphone"></i>
+          <h2 class="menu-text">Speakers</h2>
+        </ion-item>
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.venue">
+          <i class="icon ion-ios-location"></i>
+          <h2 class="menu-text">Venue</h2>
+        </ion-item> -->
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

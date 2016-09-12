@@ -1,0 +1,43 @@
+<ion-view name="kec" view-title="KECEPATAN">
+	<ion-content>
+	<script>
+		
+	</script>
+	<!-- <div text-align="center"> -->
+		<div class="item item-input-inset">
+    		<!-- <label clanss="item-input-wrapper"> -->
+    			<div style="padding-right: 10px">MASUKKAN LIMIT KECEPATAN</div>
+    			<label class="item-input-wrapper"><input type="text" maxlength="3" id="txt_kec" onChange="ganti()"></label>
+      			<div style="padding-left: 10px">KM/JAM</div>
+    		<!-- </label> -->
+    		<button class="button button-small" onClick="ambil()">
+      			OK
+    		</button>
+  		</div>
+  		<br/>
+		<div class="center">
+			<h1 font-size=300%>KECEPATAN KENDARAAN SAAT INI</h1>
+			<h1>{{(users.output.attribute.alkohol)||0}}&nbsp KM/JAM</h1>
+			<p id="cobaaja"></p>
+		</div>
+		<!-- <div class="item-input-wrapper">
+			<input type="text" placeholder="Tes"></input>
+		</div> -->
+		
+	<!-- </div> -->
+	</ion-content>
+</ion-view>
+
+
+<!-- <html>
+<head>
+	<title></title>
+</head>
+<body>
+	<br><br><br><br><br><br>
+	<div text-align="center">
+		<h1 align="center">Tes</h1>
+	</div>
+	
+</body>
+</html> -->

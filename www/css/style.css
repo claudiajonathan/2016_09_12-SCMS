@@ -1,0 +1,137 @@
+/* Empty. Add your own CSS if you like */
+.kecepatan{
+	background-repeat: no-repeat;
+  	background-position:center;
+  	background-image: url('../img/kecepatan_ijo.png');
+  	background-size: 30px;
+}
+.kecepatan_abu{
+	background-repeat: no-repeat;
+  	background-position:center;
+  	background-image: url('../img/kecepatan_abu.png');
+  	background-size: 30px;
+}
+.alkohol{
+	background-repeat: no-repeat;
+  	background-position:center;
+  	background-image: url('../img/alkohol_ijo.png');
+  	background-size: 30px;
+}
+.alkohol_abu{
+	background-repeat: no-repeat;
+  	background-position:center;
+  	background-image: url('../img/alkohol_abu.png');
+  	background-size: 30px;
+}
+.posisi{
+	background-repeat: no-repeat;
+  	background-position:center;
+  	background-image: url('../img/posisi_ijo.png');
+  	background-size: 30px;
+}
+.posisi_abu{
+	background-repeat: no-repeat;
+  	background-position:center;
+  	background-image: url('../img/posisi_abu.png');
+  	background-size: 30px;
+}
+
+.logoscms{
+  background-repeat: no-repeat;
+    background-position:center;
+    background-image: url('../img/scms.png');
+    background-size: 100px;
+  
+}
+.buttons-fab-page {
+
+  .fab-footer {
+    z-index: 99;
+  }
+
+  .bar-footer {
+    background: url(../../img/footer-wireframe.png) repeat-x;
+    height: 2px;
+
+    position: absolute;
+    right: 0;
+    bottom: 44px;
+    left: 0;
+  }
+
+}
+
+.float-button {
+ 
+background-color:#303f9f;
+opacity: 0.9;
+color: white;
+border-radius: 50%;
+/*border-radius:15% 0 0 0;*/
+width: 30px;
+padding: 25px;
+font-size: 40px;
+position: fixed;
+bottom: 5%; /* Adjust height */
+right: 5%; /* Adjust position */
+z-index: 1000;
+}
+ 
+.float-button .height_fix {
+  margin-top: 100%;
+  border: 1px solid red;
+}
+ 
+.float-button .content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: -20px;
+  color: white;
+}
+
+.scroll {
+    height: 100%;
+}
+ 
+.full-map {
+    width: 100%;
+    height: 100%;
+}
+#map {
+    width: 100%;
+    height: 100%;
+    background-color: grey !important;
+}
+.angular-google-map-container { height: 400px; }
+
+
+.ijo{
+  background: #33cd5f
+}
+
+.ijomuda{
+  background: #c5f5cd
+}
+
+.center{
+  text-align: center;
+}
+
+#center{
+  text-align: center;
+}
+
+/*.scroll-content {
+  display: table !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.scroll {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}*/
